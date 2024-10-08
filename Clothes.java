@@ -27,6 +27,16 @@ public class Clothes extends StoreRunner {
     this.color = color;
   }
 
+  /*
+  * Sets the price to 15.99
+  * Sets the size and color to a specified value
+  */
+  public Clothes(String size, String color) {
+    price = 15.99;
+    this.size = size;
+    this.color = color;
+  }
+
   // Accessor and Mutator Methods
   /*
   * Returns the price of the item

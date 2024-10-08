@@ -25,6 +25,15 @@ public class Pants extends Clothes {
     this.isShort = isShort;
   }
 
+  /*
+  * Sets the price to 25.99
+  * Sets the size, color, and design to a specified value
+  */
+  public Pants(String size, String color, boolean isShort) {
+    super(25.99, size, color);
+    this.isShort = isShort;
+  }
+
   // Accessor and Mutator Methods
   /*
   * Returns if the pants are shorts

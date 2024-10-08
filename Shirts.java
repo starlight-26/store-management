@@ -25,6 +25,15 @@ public class Shirts extends Clothes {
     this.hasDesign = hasDesign;
   }
 
+  /*
+  * Sets the price to 10.50
+  * Sets the size, color, and design to a specified value
+  */
+  public Shirts(String size, String color, boolean hasDesign) {
+    super(10.50, size, color);
+    this.hasDesign = hasDesign;
+  }
+
   // Accessor and Mutator Methods
   /*
   * Returns if the shirt has a design or not
